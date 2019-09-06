@@ -1,6 +1,9 @@
+import Array as arr
+
 class Character:
 
     def __init__(self,name, intHealth, intFeature,speed):
+        self.abilities  = arr.array("Ram","Shield","Slice", "Climb")
         self.name = name
         self.health = intHealth
         self.ability = intFeature
